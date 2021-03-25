@@ -12,7 +12,7 @@ module.exports = {
       },
     },
     {
-      pathPrefix:"/veghogs",
+      pathPrefix: "/veghogs",
     }
   ],
 }

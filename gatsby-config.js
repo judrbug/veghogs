@@ -4,6 +4,7 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 module.exports = {
+  pathPrefix:"/veghogs",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,
@@ -11,8 +12,5 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    {
-      pathPrefix: "/veghogs",
-    }
   ],
 }

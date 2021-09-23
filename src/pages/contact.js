@@ -7,6 +7,9 @@ export default function Contact() {
     <Layout>
       <Header headerText="Contact" />
       <p>Send me a message!</p>
+      <p>
+        <a href="mailto:meffordhannah@gmail.com"> meffordhannah@gmail.com</a>
+      </p>
     </Layout>
   )
 }
